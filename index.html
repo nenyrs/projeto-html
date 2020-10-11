@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aulinha da Galera</title>
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="/assets/css/estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/estilo.css">
     <script src="https://kit.fontawesome.com/cb522ee711.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -16,37 +19,38 @@
         <div class="container">
 
             <!-- No desktop 3 colunas, no mobile 12 colunas -->
-            <div class="col-lg-3 col-12 logo">
-                <img src="" title="logo" alt="">
-            </div> 
+            <div class="row">
+                <div class="col-lg-3 col-12 logo">
+                    <img src="./assets/img/logo.png" title="logo" alt="">
+                </div> 
 
-            <div class="col-lg-9 col-12 menu">
+                <div class="col-lg-9 col-12 menu">
 
-                <nav class="menu-list">
-                    <ul>
-                        <li>
-                            <a href="#">Home</a>
-                            <div class="sub-menu">
-                                <li><a href="#">Layout 2</a></li>
-                                <li><a href="#">Layout 3</a></li>
-                                <li><a href="#">Layout 4</a></li>
-                            </div>
-                        </li>
-                        <li><a href="#">Sobre</a></li>
-                        <li><a href="#">Qualidades</a></li>
-                        <li><a href="#">Preços</a></li>
-                    </ul>
+                    <nav class="menu-list row">
+                        <ul>
+                            <li>
+                                <a href="#">Home</a>
+                                <div class="sub-menu">
+                                    <a href="#">Layout 2</a>
+                                    <a href="#">Layout 3</a>
+                                    <a href="#">Layout 4</a>
+                                </div>
+                            </li>
+                            <li><a href="#">Sobre</a></li>
+                            <li><a href="#">Qualidades</a></li>
+                            <li><a href="#">Preços</a></li>
+                        </ul>
+                    </nav>
 
                     <div class="icons">
-                    <i class="fas fa-search"></i>
-                    <i class="fab fa-twitter"></i>
-                    <i class="fab fa-instagram"></i>
+                        <i class="fas fa-search"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
                     </div>
 
-                </nav>
+                    <a href="" class="cta-btn primary-color-bg"><i class="far fa-comment-dots"></i> Fale conosco</a>
 
-                <div class="cta-btn primary-color"><i class="far fa-comment-dots"></i> Fale conosco</div>
-
+                </div>
             </div>
 
         </div>
@@ -55,18 +59,20 @@
 
     <!-- HOME SECTION -->
 
-    <div id="home-section">
+    <div id="home-section" class="full-page-section">
 
         <div class="container">
+            
+            <div class="row">
+                <div class="col-lg-6 col-12 content">
+                    <h2 class="primary-color heading-big title">Soluções inteligentes</h2>
+                    <p class="default-description text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex exercitationem, impedit odio voluptas enim molestiae necessitatibus.</p>
+                    <a href="" class="cta-btn primary-color-bg"><i class="fas fa-arrow-right"></i> Começar agora</a>
+                </div>
 
-            <div class="col-lg-6 col-12 content">
-                <h2 class="primary-color heading-big title">Soluções inteligentes</h2>
-                <p class="default-description text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex exercitationem, impedit odio voluptas enim molestiae necessitatibus.</p>
-                <a href="" class="cta-btn primary-color"><i class="fas fa-arrow-right"></i> Começar agora</a>
-            </div>
-
-            <div class="col-lg-6 col-12 image">
-                <img src="#" alt="">
+                <div class="col-lg-6 col-12 image">
+                    <img src="./assets/img/hero-1.png" alt="">
+                </div>
             </div>
 
         </div>
@@ -79,37 +85,40 @@
 
         <div class="container">
 
-            <div class="col-lg-6 col-12 video-thumb">
-                <img src="" alt="">
-                <a href="" class="video-play-button"><img src="" alt=""></a>
-            </div>
+            <div class="row">
 
-            <div class="col-lg-6 col-12 content">
-                <div class="heading">
-                    <h3 class="section-title">
-                        Institucional
-                    </h3>
-                    <p class="section-description">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat, accusamus odio nisi fuga reiciendis quibusdam. Laborum accusamus iusto aut sapiente quia dignissimos quae commodi fuga optio eveniet modi, tenetur quo.
-                    </p>
+                <div class="col-lg-6 col-12 video-thumb">
+                    <img src="./assets/img/about.jpg" alt="">
+                    <a href="" class="video-play-button"><img src="./assets/img/play-btn.png" alt=""></a>
                 </div>
 
-                <div class="box-with-image">
-                    <img src="" alt="">
-                    <div class="box-description">
-                        <div class="title">Tradição</div>
-                        <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab autem numquam quasi accusamus.</p>
+                <div class="col-lg-6 col-12 content">
+                    <div class="heading">
+                        <h3 class="section-title">
+                            Institucional
+                        </h3>
+                        <p class="section-description">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        </p>
                     </div>
-                </div>
-    
-                <div class="box-with-image">
-                    <img src="" alt="">
-                    <div class="box-description">
-                        <div class="title">Tradição</div>
-                        <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab autem numquam quasi accusamus.</p>
-                    </div>
-                </div>
 
+                    <div class="box-with-image">
+                        <i class="fas fa-trophy"></i>
+                        <div class="box-description">
+                            <div class="title">Tradição</div>
+                            <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab autem numquam quasi accusamus.</p>
+                        </div>
+                    </div>
+        
+                    <div class="box-with-image">
+                        <i class="far fa-gem"></i>
+                        <div class="box-description">
+                            <div class="title">Tradição</div>
+                            <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab autem numquam quasi accusamus.</p>
+                        </div>
+                    </div>
+
+                </div>
             </div>
 
         </div>
@@ -119,27 +128,34 @@
     <!-- SERVICES -->
 
     <div id="services">
-
         <div class="container">
-            <div class="col-lg-4 col-12">
-                <div class="service-box">
-                    <img src="" alt="">
-                    <div class="title">Titulo</div>
-                    <div class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque maxime corrupti tempore! In quasi nihil ut molestiae consequatur autem obcaecati</div>
+            <div class="row">
+                <div class="col-lg-4 col-12">
+                    <div class="service-box">
+                        <i class="fas fa-globe"></i>
+                        <div class="title">Website Pro</div>
+                        <div class="description text-secondary">We build professional responsive<br> 
+                            websites optimized for the most<br>
+                             popular search engines.</br></div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-4 col-12">
-                <div class="service-box">
-                    <img src="" alt="">
-                    <div class="title">Titulo</div>
-                    <div class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque maxime corrupti tempore! In quasi nihil ut molestiae consequatur autem obcaecati</div>
+                <div class="col-lg-4 col-12">
+                    <div class="service-box">
+                        <i class="fas fa-shopping-cart"></i>
+                        <div class="title">E-Commerce</div>
+                        <div class="description text-secondary">Increase your sales with an<br>
+                             incredible online store, full of<br>
+                              features and functionality.</br></div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg-4 col-12">
-                <div class="service-box">
-                    <img src="" alt="">
-                    <div class="title">Titulo</div>
-                    <div class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque maxime corrupti tempore! In quasi nihil ut molestiae consequatur autem obcaecati</div>
+                <div class="col-lg-4 col-12">
+                    <div class="service-box">
+                        <i class="fas fa-mobile-alt"></i>
+                        <div class="title">Mobile Apps</div>
+                        <div class="description text-secondary">Follow the global trend and create<br>
+                             your revolutionary mobile app built<br>
+                              with the best technologies.</br></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -225,7 +241,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="cta-btn primary-color"><i class="far fa-arrow-alt-circle-right"></i> Escolher o plano</div>
+                    <div class="cta-btn primary-color-bg"><i class="far fa-arrow-alt-circle-right"></i> Escolher o plano</div>
                 </div>
                 <div class="col-lg-4 col-12">
                     <div class="heading">
@@ -261,7 +277,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="cta-btn primary-color"><i class="far fa-arrow-alt-circle-right"></i> Escolher o plano</div>
+                    <div class="cta-btn primary-color-bg"><i class="far fa-arrow-alt-circle-right"></i> Escolher o plano</div>
                 </div>
                 <div class="col-lg-4 col-12">
                     <div class="heading">
@@ -297,7 +313,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="cta-btn primary-color"><i class="far fa-arrow-alt-circle-right"></i> Escolher o plano</div>
+                    <div class="cta-btn primary-color-bg"><i class="far fa-arrow-alt-circle-right"></i> Escolher o plano</div>
                 </div>
 
             </div>
@@ -398,7 +414,7 @@
                     <li><i class="far fa-envelope"></i> <a href="#">Clique aqui</a></li>
                     <li><i class="fas fa-map-marker-alt"></i> <a href="#">Clique aqui</a></li>
                 </ul>
-                <div class="cta-btn primary-color"><i class="far fa-comment-dots"></i> Enviar mensagem</div>
+                <div class="cta-btn primary-color-bg"><i class="far fa-comment-dots"></i> Enviar mensagem</div>
             </div>
             <div class="col-lg-3 col-12 services">
                 <div class="heading">
